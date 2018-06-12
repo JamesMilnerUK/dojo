@@ -41,6 +41,5 @@
     "typescript": "~2.6.1"
   },
   "dependencies": {
-    "@dojo/widget-core": "^2.0.1-pre"
   }
 }

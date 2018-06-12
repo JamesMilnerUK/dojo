@@ -44,7 +44,6 @@
     "typescript": "~2.6.1"
   },
   "dependencies": {
-    "@dojo/widget-core": "^2.0.1-pre",
     "intersection-observer": "0.4.2",
     "pepjs": "0.4.2",
     "tslib": "~1.8.0",
