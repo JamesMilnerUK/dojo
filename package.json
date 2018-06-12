@@ -14,8 +14,9 @@
     "dev": "lerna dev",
     "precommit": "lint-staged",
     "pub": "ts-node ./support/cli/publish",
-    "test": "lerna test",
-    "test-changes": "lerna run test --since master"
+    "test": "lerna run test",
+    "test-changes": "lerna run test --since master",
+    "postinstall": "lerna bootstrap"
   },
   "devDependencies": {
     "@dojo/scripts": "^0.1.1",
