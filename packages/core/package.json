@@ -34,7 +34,9 @@
     "@dojo/shim": "^2.0.0"
   },
   "devDependencies": {
+    "@dojo/has": "^2.0.0",
     "@dojo/loader": "^2.0.0",
+    "@dojo/shim": "^2.0.0",
     "@theintern/leadfoot": "~2.0.2",
     "@types/benchmark": "~1.0.0",
     "@types/chai": "~4.0.0",
