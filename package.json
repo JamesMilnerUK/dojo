@@ -15,7 +15,8 @@
     "precommit": "lint-staged",
     "pub": "ts-node ./support/cli/publish",
     "test": "lerna test",
-    "test-changes": "lerna run test --since master"
+    "test-changes": "lerna run test --since master",
+    "codecov": "codecov"
   },
   "devDependencies": {
     "@dojo/scripts": "^0.1.1",
@@ -39,5 +40,8 @@
       "prettier --write",
       "git add"
     ]
+  },
+  "dependencies": {
+    "codecov": "^3.0.2"
   }
 }
